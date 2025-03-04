@@ -13,7 +13,7 @@ export default function AddProductForm() {
   const toast = useToast();
   const { addProduct, loading, error } = useAddProduct();
 
-  // Estados del formulario
+  // Estados del form
   const [nombre, setNombre] = useState("");
   const [descripcion, setDescripcion] = useState("");
   const [precio, setPrecio] = useState<number>(0);
